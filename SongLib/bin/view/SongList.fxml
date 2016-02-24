@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Julia Sutula and Corentin Rejaud -->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ListController">
+	
+  <left>
+	<ListView fx:id="listView" prefHeight="400.0" prefWidth="150.0" onKeyPressed="#listKeyPress" />
+  </left>
+  <center>
+    <VBox prefHeight="376.0" prefWidth="209.0" BorderPane.alignment="CENTER">
+      <children>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Song Details" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+        <VBox.margin>
+          <Insets bottom="20.0" />
+        </VBox.margin>
+          <font>
+            <Font size="24.0" />
+          </font>
+        </Text>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Title: " />
+              <Text fx:id="songTitle" strokeType="OUTSIDE" strokeWidth="0.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Artist: " />
+              <Text fx:id="songArtist" strokeType="OUTSIDE" strokeWidth="0.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Album: " />
+              <Text fx:id="songAlbum" strokeType="OUTSIDE" strokeWidth="0.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Year: " />
+              <Text fx:id="songYear" strokeType="OUTSIDE" strokeWidth="0.0" />
+               </children>
+            </HBox>
+        <Pane VBox.vgrow="ALWAYS" />
+        <Button mnemonicParsing="false" onAction="#handleEditButton" text="Edit" />
+      </children>
+      <BorderPane.margin>
+        <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+      </BorderPane.margin>
+    </VBox>
+  </center>
+  <bottom>
+    <ToolBar prefHeight="40.0" prefWidth="200.0">
+	  <Button onAction="#handleAddButton" text="Add" />
+	  <Pane HBox.hgrow="ALWAYS" />
+	  <Button onAction="#handleDeleteButton" text="Delete" />
+	</ToolBar>
+  </bottom>
+	
+</BorderPane>

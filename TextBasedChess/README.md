@@ -1,4 +1,4 @@
-# Text-based Chess by Corentin Rejaud and Julia Sutula 
+# Text-based Chess
 	
 	Chess using Java in Eclipse.
 	All valid rules and movement for all pieces.

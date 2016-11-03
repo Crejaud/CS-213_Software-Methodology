@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane prefHeight="500.0" prefWidth="425.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65">
+   <top>
+      <AnchorPane prefHeight="78.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="357.0" layoutY="15.0" mnemonicParsing="false" text="Logout" />
+            <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, Admin!" />
+            <Text layoutX="12.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Users" />
+            <Text layoutX="357.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add" />
+            <Button layoutX="384.0" layoutY="44.0" mnemonicParsing="false" text="+" />
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="paul123" />
+            <Text layoutX="14.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="mustang_lover" />
+            <Text layoutX="14.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SamIsTheBest" />
+            <Text layoutX="14.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="jsutula" />
+            <Button layoutX="359.0" layoutY="10.0" mnemonicParsing="false" text="Delete" />
+            <Button layoutX="359.0" layoutY="54.0" mnemonicParsing="false" text="Delete" />
+            <Button layoutX="359.0" layoutY="94.0" mnemonicParsing="false" text="Delete" />
+            <Button layoutX="359.0" layoutY="131.0" mnemonicParsing="false" text="Delete" />
+            <Text layoutX="201.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Paul Rudd" />
+            <Text layoutX="201.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sesh Venugopal" />
+            <Text layoutX="201.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sam Spam" />
+            <Text layoutX="201.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Julia Sutula" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

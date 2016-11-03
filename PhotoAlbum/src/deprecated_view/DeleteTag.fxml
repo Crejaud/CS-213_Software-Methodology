@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="185.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="384.0" layoutY="14.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="0.0" text="x" />
+      <Text layoutX="24.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Tag">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Are you sure you would like to delete this tag?" />
+      <Button layoutX="116.0" layoutY="119.0" mnemonicParsing="false" text="Yes" />
+      <Button layoutX="258.0" layoutY="119.0" mnemonicParsing="false" text="No" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Julia Sutula and Corentin Rejaud -->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AlbumListController">
+   <top>
+      <AnchorPane prefHeight="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#searchPhotos" text="Search Photos" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="140.0" />
+            <Button mnemonicParsing="false" onAction="#handleAddButton" text="+" AnchorPane.bottomAnchor="6.0" AnchorPane.rightAnchor="0.0" />
+            <Button mnemonicParsing="false" onAction="#handleLogoutButton" text="Logout" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <Text fx:id="nameText" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome, user.name" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Separator AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-12.0" AnchorPane.rightAnchor="-12.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Your Albums" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="0.0" />
+            <Text layoutX="265.9267578125" layoutY="165.0888671875" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Album" AnchorPane.bottomAnchor="12.0" AnchorPane.rightAnchor="36.0" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets left="12.0" right="12.0" top="12.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </top>
+   <center>
+      <ListView fx:id="albumListView" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </ListView>
+   </center>
+</BorderPane>

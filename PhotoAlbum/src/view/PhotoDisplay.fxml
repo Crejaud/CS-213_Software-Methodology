@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Julia Sutula and Corentin Rejaud -->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PhotoDisplayController">
+   <top>
+      <AnchorPane maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="450.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleLogoutButton" text="Logout" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <Button mnemonicParsing="false" onAction="#back" text="Back" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <Button fx:id="previousPhotoBtn" mnemonicParsing="false" onAction="#previousPhoto" text="&lt;" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="0.0" />
+            <Button fx:id="nextPhotoBtn" mnemonicParsing="false" onAction="#nextPhoto" text="&gt;" AnchorPane.rightAnchor="160.0" AnchorPane.topAnchor="0.0" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </top>
+   <center>
+   
+   </center>
+   <center>
+      <VBox prefWidth="450.0" BorderPane.alignment="CENTER">
+         <children>
+            <StackPane prefWidth="450.0">
+               <ImageView fx:id="photoImageView" fitHeight="350.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+               	<image>
+                     <Image url="@pic/admin_login.png" />
+                  </image>
+               </ImageView>
+            </StackPane>
+            <AnchorPane minWidth="-Infinity" prefWidth="450.0">
+               <children>
+                  <Text fx:id="captionText" strokeType="OUTSIDE" strokeWidth="0.0" text="Caption: " wrappingWidth="300.0" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="20.0" />
+                  <Button mnemonicParsing="false" onAction="#addTag" text="+" AnchorPane.bottomAnchor="6.0" AnchorPane.rightAnchor="12.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Add Tag" AnchorPane.bottomAnchor="12.0" AnchorPane.rightAnchor="42.0" />
+                  <Text fx:id="photoDateText" strokeType="OUTSIDE" strokeWidth="0.0" text="Photo Date: " AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="0.0" />
+               </children>
+               <padding>
+                  <Insets top="12.0" />
+               </padding>
+            </AnchorPane>
+            <ListView fx:id="tagListView" prefWidth="450.0" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

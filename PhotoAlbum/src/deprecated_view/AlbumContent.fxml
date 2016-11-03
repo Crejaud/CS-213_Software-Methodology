@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button mnemonicParsing="false" text="&lt;--" />
+      <Text layoutX="178.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Album Name">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="359.0" layoutY="13.0" mnemonicParsing="false" text="Logout" />
+      <Button layoutX="17.0" layoutY="135.0" mnemonicParsing="false" text="+" />
+      <Text layoutX="50.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Photo" />
+      <Text layoutX="180.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="June 2016 - July 2016" />
+      <Text layoutX="180.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Oldest Photo: June 2016" />
+      <Text layoutX="180.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Photos: 206" />
+      <ImageView fitHeight="100.0" fitWidth="129.0" layoutX="15.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Pictures/Sushi_Cat.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="71.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By Tag" />
+      <Text layoutX="194.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filter By Date" />
+      <Text layoutX="30.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search" wrappingWidth="40.833983197808266" />
+      <TextField layoutX="32.0" layoutY="202.0" text="value" />
+      <DatePicker layoutX="192.0" layoutY="202.0" prefHeight="25.0" prefWidth="74.0" />
+      <DatePicker layoutX="281.0" layoutY="202.0" prefHeight="25.0" prefWidth="74.0" />
+      <Text layoutX="266.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To" />
+      <Button layoutX="360.0" layoutY="202.0" mnemonicParsing="false" text="Search" />
+      <ImageView fitHeight="59.0" fitWidth="74.0" layoutX="17.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Pictures/Sushi_Cat.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="74.0" layoutX="303.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Pictures/Sushi_Cat.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="74.0" layoutX="157.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Pictures/Sushi_Cat.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="74.0" layoutX="17.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Pictures/Sushi_Cat.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="74.0" layoutX="303.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Pictures/Sushi_Cat.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="74.0" layoutX="157.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Pictures/Sushi_Cat.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="74.0" layoutX="14.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Pictures/Sushi_Cat.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="74.0" layoutX="300.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Pictures/Sushi_Cat.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="74.0" layoutX="154.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Pictures/Sushi_Cat.jpg" />
+         </image>
+      </ImageView>
+      <ScrollBar layoutX="397.0" layoutY="241.0" orientation="VERTICAL" prefHeight="317.0" prefWidth="14.0" />
+      <Text layoutX="19.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caption: blah" />
+      <Text layoutX="156.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caption: blah" />
+      <Text layoutX="302.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caption: blah" />
+      <Text layoutX="17.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caption: blah" />
+      <Text layoutX="154.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caption: blah" />
+      <Text layoutX="300.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caption: blah" />
+      <Text layoutX="17.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caption: blah" />
+      <Text layoutX="154.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caption: blah" />
+      <Text layoutX="300.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caption: blah" />
+      <Button layoutX="16.0" layoutY="316.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="41.0" text="Edit" />
+      <Button layoutX="157.0" layoutY="316.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="41.0" text="Edit" />
+      <Button layoutX="303.0" layoutY="316.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="41.0" text="Edit" />
+      <Button layoutX="16.0" layoutY="430.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="41.0" text="Edit" />
+      <Button layoutX="157.0" layoutY="430.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="41.0" text="Edit" />
+      <Button layoutX="303.0" layoutY="430.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="41.0" text="Edit" />
+      <Button layoutX="18.0" layoutY="546.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="41.0" text="Edit" />
+      <Button layoutX="159.0" layoutY="546.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="41.0" text="Edit" />
+      <Button layoutX="305.0" layoutY="546.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="41.0" text="Edit" />
+      <Button layoutX="326.0" layoutY="103.0" mnemonicParsing="false" text="Delete Album" />
+      <Button layoutX="120.0" layoutY="574.0" mnemonicParsing="false" text="Create Album From Contents Shown" />
+      <Button layoutX="75.0" layoutY="241.0" mnemonicParsing="false" text="&gt;" />
+      <Button layoutX="212.0" layoutY="241.0" mnemonicParsing="false" text="&gt;" />
+      <Button layoutX="362.0" layoutY="241.0" mnemonicParsing="false" text="&gt;" />
+      <Button layoutX="72.0" layoutY="355.0" mnemonicParsing="false" text="&gt;" />
+      <Button layoutX="209.0" layoutY="355.0" mnemonicParsing="false" text="&gt;" />
+      <Button layoutX="359.0" layoutY="355.0" mnemonicParsing="false" text="&gt;" />
+      <Button layoutX="72.0" layoutY="469.0" mnemonicParsing="false" text="&gt;" />
+      <Button layoutX="209.0" layoutY="469.0" mnemonicParsing="false" text="&gt;" />
+      <Button layoutX="359.0" layoutY="469.0" mnemonicParsing="false" text="&gt;" />
+      <Button layoutX="64.0" layoutY="316.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="206.0" layoutY="316.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="346.0" layoutY="316.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="62.0" layoutY="430.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="204.0" layoutY="430.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="344.0" layoutY="430.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="65.0" layoutY="546.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="207.0" layoutY="546.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="347.0" layoutY="546.0" mnemonicParsing="false" text="Delete" />
+   </children>
+</AnchorPane>
